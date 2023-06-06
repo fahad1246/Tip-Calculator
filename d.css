@@ -1,0 +1,53 @@
+/*Fahad Mohammed  CSS Comment
+     03/10/2021
+     Part d*/
+
+     body {
+        background-color: #6eec8d; /* this is the backgroung color for the web page*/ 
+        border-radius: 5px;/*this is for the radius of the box*/
+        font-family:Arial, Helvetica, sans-serif, Georgia ;/* this is the fonts used on the web page*/ 
+        color:rgb(0, 0, 0);  /*This is the color for the rext*/
+        font-weight:bold; /*This turns the font to bold*/
+        font-size: 18px;
+        text-align: center;       
+   }
+   h1 {/*this is for aligning h1 to the center and makes it look nice*/
+       text-decoration: underline ;
+       text-decoration-style: solid ;
+       margin-top: 2%;
+   } 
+ 
+      
+  div { /* this is for inside the text area*/
+    overflow: auto;
+    resize: none;
+    border: double;
+    color: black; 
+    background-color: #ccda0d;
+    margin-top:2%;
+    border:2px double;/* this if for the boder of the box*/
+    border-width: 6px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 30px;
+ }
+ 
+#error{
+    color: rgb(0, 0, 0); /*sets the error color */
+}
+
+
+ button {
+        font-weight: bold; /*This turns the font to bold*/
+        padding: 2px; /*This gives the padding to the button*/
+        font-size: 14px;/* this is the fonts used on the button*/
+        border-radius: 5px;/*this is for the radius of the button box*/
+        margin: 8px ;
+}
+     
+button:hover
+    {
+        background-color:rgb(148, 208, 216) ;/* this is the backgroung color for the button when you hover your mouse on the button*/ 
+    }
+
+    
